@@ -1,0 +1,14 @@
+
+State Machine - |top|riscv:rvs|controller:c|maindec:md|state
+Name state.S10_BEQ state.S9_JAL state.S8_EXECUTEI state.S7_ALUWB state.S6_EXECUTER state.S5_MEMWRITE state.S4_MEMWB state.S3_MEMREAD state.S2_MEMADR state.S1_DECODE state.S0_FETCH 
+state.S0_FETCH 0 0 0 0 0 0 0 0 0 0 0 
+state.S1_DECODE 0 0 0 0 0 0 0 0 0 1 1 
+state.S2_MEMADR 0 0 0 0 0 0 0 0 1 0 1 
+state.S3_MEMREAD 0 0 0 0 0 0 0 1 0 0 1 
+state.S4_MEMWB 0 0 0 0 0 0 1 0 0 0 1 
+state.S5_MEMWRITE 0 0 0 0 0 1 0 0 0 0 1 
+state.S6_EXECUTER 0 0 0 0 1 0 0 0 0 0 1 
+state.S7_ALUWB 0 0 0 1 0 0 0 0 0 0 1 
+state.S8_EXECUTEI 0 0 1 0 0 0 0 0 0 0 1 
+state.S9_JAL 0 1 0 0 0 0 0 0 0 0 1 
+state.S10_BEQ 1 0 0 0 0 0 0 0 0 0 1 
