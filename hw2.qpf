@@ -1,0 +1,4 @@
+QUARTUS_VERSION = "25.1std.0"
+DATE = "15:31:00  April 20, 2026"
+
+PROJECT_REVISION = "hw2"
