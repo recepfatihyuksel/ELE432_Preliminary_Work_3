@@ -1,0 +1,5 @@
+1 7 maindec 4 fast 55 C:/Users/furka/Projects/ELE432_MulticycleRiscv/rtl_work 0 0 131072 0 234 0
+1 6 aludec 4 fast 55 C:/Users/furka/Projects/ELE432_MulticycleRiscv/rtl_work 0 0 0 0 45 0
+1 8 instrdec 4 fast 55 C:/Users/furka/Projects/ELE432_MulticycleRiscv/rtl_work 0 0 0 0 22 0
+1 10 controller 4 fast 55 C:/Users/furka/Projects/ELE432_MulticycleRiscv/rtl_work 0 0 0 0 64 0
+1 9 testbench 4 fast 55 C:/Users/furka/Projects/ELE432_MulticycleRiscv/rtl_work 0 0 0 0 247 0
