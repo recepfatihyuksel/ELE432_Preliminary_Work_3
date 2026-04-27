@@ -1,0 +1,444 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+!s12c _opt
+R1
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/furka/Projects/ELE432_MulticycleRiscv/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1777048995
+V]Hc;NdmWhV7?_=WN^mA[^3
+Z3 04 9 4 work testbench fast 0
+=1-f80dacb401f7-69eb9da1-3b4-3bcc
+R1
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+Z6 !s124 OEM10U22 
+Z7 !s135 nogc
+Z8 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z9 tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+Z10 OL;O;2025.2;82
+R2
+T_opt1
+!i145 1
+!i144 0
+!s110 1777272666
+VEWSM3JU3<EEUkNK6KzFc>0
+R3
+=1-a497b1f17423-69ef0759-1be-5f7c
+R1
+R4
+R5
+R6
+R7
+R8
+R9
+n@_opt1
+R10
+valu
+Z11 2C:/FPGA_Works/ELE432_MulticycleRiscv-main/building_blocks.sv
+Z12 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z13 !s110 1777272663
+!i10b 1
+!s100 2:PMOhznAc;m>lCYmFSSi1
+Il3]8=mAXll4<Gdg]k=Xl?3
+S1
+Z14 dC:/FPGA_Works/ELE432_MulticycleRiscv-main/simulation/questa
+Z15 w1777146429
+Z16 8C:/FPGA_Works/ELE432_MulticycleRiscv-main/building_blocks.sv
+Z17 FC:/FPGA_Works/ELE432_MulticycleRiscv-main/building_blocks.sv
+!i122 4
+L0 89 21
+Z18 VDg1SIo80bB@j0V0VzS_@n1
+Z19 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z20 !s108 1777272663.000000
+Z21 !s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/building_blocks.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/building_blocks.sv|
+!i113 0
+Z23 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z24 !s92 -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z25 tCvgOpt 0 defaultOptions 1085333592
+valudec
+2C:/FPGA_Works/ELE432_MulticycleRiscv-main/aludec.sv
+R12
+Z26 !s110 1777272662
+!i10b 1
+!s100 <6DeVMm9g8iJaPo0A29Ra0
+IfObgV;aKzEWz]7d5j7MkR2
+S1
+R14
+R15
+8C:/FPGA_Works/ELE432_MulticycleRiscv-main/aludec.sv
+FC:/FPGA_Works/ELE432_MulticycleRiscv-main/aludec.sv
+!i122 2
+L0 1 29
+R18
+R19
+r1
+!s85 0
+31
+Z27 !s108 1777272662.000000
+!s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/aludec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/aludec.sv|
+!i113 0
+R23
+R24
+R25
+vcontroller
+2C:/FPGA_Works/ELE432_MulticycleRiscv-main/controller.sv
+R12
+R26
+!i10b 1
+!s100 SaTW54fEKCc[zMmK=cz>?1
+IU`X8Q<PdYbJ8feH=VzV7]3
+S1
+R14
+R15
+8C:/FPGA_Works/ELE432_MulticycleRiscv-main/controller.sv
+FC:/FPGA_Works/ELE432_MulticycleRiscv-main/controller.sv
+!i122 0
+L0 1 52
+R18
+R19
+r1
+!s85 0
+31
+R27
+!s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/controller.sv|
+!i113 0
+R23
+R24
+R25
+vdatapath
+2C:/FPGA_Works/ELE432_MulticycleRiscv-main/datapath.sv
+R12
+R13
+!i10b 1
+!s100 O6nUh^^La2fC?L4]8AA0S0
+IK2QcZ5N_BQihX2M4Nh?L@3
+S1
+R14
+R15
+8C:/FPGA_Works/ELE432_MulticycleRiscv-main/datapath.sv
+FC:/FPGA_Works/ELE432_MulticycleRiscv-main/datapath.sv
+!i122 5
+L0 1 71
+R18
+R19
+r1
+!s85 0
+31
+R20
+!s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/datapath.sv|
+!i113 0
+R23
+R24
+R25
+vextend
+R11
+R12
+R13
+!i10b 1
+!s100 32Vcdi9PFA0Tl]Lo5iBQl2
+ITNLC;7@j@7Vm6de:b;H;20
+S1
+R14
+R15
+R16
+R17
+!i122 4
+L0 72 16
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R24
+R25
+vflopenr
+R11
+R12
+R13
+!i10b 1
+!s100 :kJU;c7]d=TOTcb6STSJL0
+Ia<k2MI`X<W^BgOC6UQ1@`0
+S1
+R14
+R15
+R16
+R17
+!i122 4
+L0 16 15
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R24
+R25
+vflopr
+R11
+R12
+R13
+!i10b 1
+!s100 nbNVFYHKI>hAn=?oRT0_^1
+I^W_[E6n1lzFFM;CMRD:Da3
+S1
+R14
+R15
+R16
+R17
+!i122 4
+L0 1 14
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R24
+R25
+vinstrdec
+2C:/FPGA_Works/ELE432_MulticycleRiscv-main/instrdec.sv
+R12
+R13
+!i10b 1
+!s100 6Q0J4lgB;PkL[^Nm]]Wi03
+IiCPQ9>K0eFnoA@nc_1S0n1
+S1
+R14
+R15
+8C:/FPGA_Works/ELE432_MulticycleRiscv-main/instrdec.sv
+FC:/FPGA_Works/ELE432_MulticycleRiscv-main/instrdec.sv
+!i122 3
+L0 1 16
+R18
+R19
+r1
+!s85 0
+31
+R20
+!s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/instrdec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/instrdec.sv|
+!i113 0
+R23
+R24
+R25
+vmaindec
+2C:/FPGA_Works/ELE432_MulticycleRiscv-main/maindec.sv
+R12
+R26
+!i10b 1
+!s100 8jBEk2``FhkaIS]>[zFED2
+Iil4967NR]DRl=?[5;?hd_0
+S1
+R14
+R15
+8C:/FPGA_Works/ELE432_MulticycleRiscv-main/maindec.sv
+FC:/FPGA_Works/ELE432_MulticycleRiscv-main/maindec.sv
+!i122 1
+L0 1 171
+R18
+R19
+r1
+!s85 0
+31
+R27
+!s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/maindec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/maindec.sv|
+!i113 0
+R23
+R24
+R25
+vmem
+2C:/FPGA_Works/ELE432_MulticycleRiscv-main/memory.sv
+R12
+Z28 !s110 1777272664
+!i10b 1
+!s100 cSfK8FEMFYcUIXXKdhG<V0
+IngDfG0DCVf^IRjB61l0ZX2
+S1
+R14
+w1777149432
+8C:/FPGA_Works/ELE432_MulticycleRiscv-main/memory.sv
+FC:/FPGA_Works/ELE432_MulticycleRiscv-main/memory.sv
+!i122 8
+L0 1 20
+R18
+R19
+r1
+!s85 0
+31
+Z29 !s108 1777272664.000000
+!s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/memory.sv|
+!i113 0
+R23
+R24
+R25
+vmux3
+R11
+R12
+R13
+!i10b 1
+!s100 gH9;WP><PmmFK`1:=2F<`1
+I3aWFVnD?<aim>e92k5SKR1
+S1
+R14
+R15
+R16
+R17
+!i122 4
+L0 32 17
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R24
+R25
+vregfile
+R11
+R12
+R13
+!i10b 1
+!s100 i`_Yai=Xg;2H9LlT`8;if2
+IHLQBXC3oAB[@I^d@fzUZ30
+S1
+R14
+R15
+R16
+R17
+!i122 4
+L0 50 21
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R24
+R25
+vriscv
+2C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv.sv
+R12
+R13
+!i10b 1
+!s100 ;VL100:DUSal?WJ@HKk;Q1
+I@Jl@6RlIM6o1C9eM@@?J@0
+S1
+R14
+R15
+8C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv.sv
+FC:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv.sv
+!i122 6
+L0 1 64
+R18
+R19
+r1
+!s85 0
+31
+R20
+!s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv.sv|
+!i113 0
+R23
+R24
+R25
+vtestbench
+2C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv_testbench.sv
+R12
+R28
+!i10b 1
+!s100 RoRN<CjYPjZ0=8IWLAGk50
+I1==A@X?Xck42E^4HjfB000
+S1
+R14
+R15
+8C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv_testbench.sv
+FC:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv_testbench.sv
+!i122 9
+L0 1 38
+R18
+R19
+r1
+!s85 0
+31
+R29
+!s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv_testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv_testbench.sv|
+!i113 0
+R23
+R24
+R25
+vtop
+2C:/FPGA_Works/ELE432_MulticycleRiscv-main/top.sv
+R12
+R28
+!i10b 1
+!s100 cK8k2o`6]4F6>EEj2Yl;o1
+IIV2^MoS;NgD<K[hTR]:K90
+S1
+R14
+R15
+8C:/FPGA_Works/ELE432_MulticycleRiscv-main/top.sv
+FC:/FPGA_Works/ELE432_MulticycleRiscv-main/top.sv
+!i122 7
+L0 1 28
+R18
+R19
+r1
+!s85 0
+31
+R20
+!s107 C:/FPGA_Works/ELE432_MulticycleRiscv-main/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main|C:/FPGA_Works/ELE432_MulticycleRiscv-main/top.sv|
+!i113 0
+R23
+R24
+R25

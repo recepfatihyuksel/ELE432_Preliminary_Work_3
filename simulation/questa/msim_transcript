@@ -1,0 +1,171 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do hw2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is furka@DESKTOP-O6TP24I.
+# vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Errors: 0, Warnings: 1
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'C:/altera/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying C:/altera/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/controller.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:02 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/controller.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 09:51:02 on Apr 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/maindec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:02 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/maindec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module maindec
+# 
+# Top level modules:
+# 	maindec
+# End time: 09:51:02 on Apr 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/aludec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:02 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/aludec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module aludec
+# 
+# Top level modules:
+# 	aludec
+# End time: 09:51:02 on Apr 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/instrdec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:03 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/instrdec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module instrdec
+# 
+# Top level modules:
+# 	instrdec
+# End time: 09:51:03 on Apr 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/building_blocks.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:03 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/building_blocks.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module flopr
+# -- Compiling module flopenr
+# -- Compiling module mux3
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	flopr
+# 	flopenr
+# 	mux3
+# 	regfile
+# 	extend
+# 	alu
+# End time: 09:51:03 on Apr 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/datapath.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:03 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/datapath.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 09:51:03 on Apr 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:03 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module riscv
+# 
+# Top level modules:
+# 	riscv
+# End time: 09:51:03 on Apr 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/top.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:03 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/top.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 09:51:04 on Apr 27,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/memory.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:04 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/memory.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module mem
+# 
+# Top level modules:
+# 	mem
+# End time: 09:51:04 on Apr 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main {C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv_testbench.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 09:51:04 on Apr 27,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/FPGA_Works/ELE432_MulticycleRiscv-main" C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv_testbench.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:51:04 on Apr 27,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module testbench at C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv_testbench.sv line 31
+add wave -position 2  sim:/testbench/dut/rvs/dp/PC
+add wave -position 3  sim:/testbench/dut/rvs/dp/Instr
+add wave -position 4  sim:/testbench/dut/rvs/dp/SrcA
+add wave -position 5  sim:/testbench/dut/rvs/dp/SrcB
+add wave -position 6  sim:/testbench/dut/rvs/dp/ALUResult
+add wave -position 4  sim:/testbench/dut/rvs/c/md/state
+restart -f
+run -all
+# Break in Module testbench at C:/FPGA_Works/ELE432_MulticycleRiscv-main/riscv_testbench.sv line 31
+# Causality operation skipped due to absence of debug database file
